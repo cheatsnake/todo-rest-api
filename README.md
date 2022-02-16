@@ -5,7 +5,11 @@
 ```
 npm install
 ```
-2. Run server with nodemon or node
+2. Create `.env` file with URI for connection to MongoDB
+```
+MONGODB_URI=mongodb://mongodb0.example.com:27017
+```
+3. Run server with nodemon or node
 ```
 npm run dev
 ```
