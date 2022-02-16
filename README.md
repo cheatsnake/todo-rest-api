@@ -16,16 +16,17 @@ npm run dev
 ```
 npm start
 ```
+> Base url http://localhost:5000/ 
 
 ## 📌 End-points
 
 | Method | End-Point | Description |
 | --- | --- | --- |
-| `POST` | `/todo` | Create a new *todo* |
-| `GET` | `/todo/:id` | Get a specific *todo* |
-| `GET` | `/todos` | List all *todos* |
-| `PUT` | `/todo` | Edit existing *todo* |
-| `DELETE` | `/todo/:id` | Delete existing *todo* |
+| `POST` | `/api/todo` | Create a new *todo* |
+| `GET` | `/api/todo/:id` | Get a specific *todo* |
+| `GET` | `/api/todos` | List all *todos* |
+| `PUT` | `/api/todo` | Edit existing *todo* |
+| `DELETE` | `/api/todo/:id` | Delete existing *todo* |
 
 ## Examples
 - Create `POST http://localhost:5000/api/todo`
